@@ -1,0 +1,152 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+.choice-grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+
+
+
+}
+
+
+
+.question-name {
+    align-items: center;
+    background-image: url(https://img.freepik.com/free-photo/portrait-young-male-pointing-front-shirt-cardigan-looking-puzzled-front-view_176474-113106.jpg?t=st=1649352679~exp=1649353279~hmac=fd6b2c730a914b611a16e80bf7bda2bf8335cab267396dc53206e4ee3e6668f4&w=900);
+    display: flex;
+    height: 425px;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+.box {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 32.5%;
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+
+   
+
+
+}
+
+@media (max-width: 500px){
+
+    .box {
+
+        width: 49%;
+
+    }
+
+
+}
+
+
+.hidden {
+
+    display: none;
+
+    
+
+
+}
+
+
+.sfuocatura {
+
+    background-color: rgba(255,255,255,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.selezionato {
+
+    background-color: #cfe3ff;
+    
+
+}
+
+.bottom {
+
+    font-size: 28px;
+    margin-top: 40px;
+
+}
+
+#titolo {
+
+    text-align: center;
+    margin-bottom: 18px;
+    padding: 0 20px 0 20px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#testo {
+
+    margin-bottom: 18px;
+    padding: 0 20px 0 20px;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+button {
+
+    font-size: 28px;
+    height: 50px;
+    width: 100%;
+
+ 
+}
+
+.ricomincia {
+  
+    margin-bottom: 40px;
+   
+
+
+
+}
+
+.button:hover {
+
+
+    background-color: #e0e0e0;
+
+
+}
+
+@media (max-width: 700px){
+
+    article {
+
+        width: 95%;
+
+    }
+
+    header div {
+
+        display: none; /*nascondo i 3 pallini gialli*/
+
+
+    }
+
+
+}
+
